@@ -1,0 +1,15 @@
+{
+  "name": "gst-number-search",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Verify any Indian GSTIN against the official GST portal. Python, Node.js and cURL clients for the GST Number Search on Apify, pay per result.",
+  "main": "gst_number_search.mjs",
+  "scripts": {
+    "start": "node gst_number_search.mjs"
+  },
+  "dependencies": {
+    "apify-client": "^2.9.0"
+  },
+  "license": "MIT",
+  "homepage": "https://themineworks.com/actors/gst-taxpayer-lookup/"
+}
