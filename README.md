@@ -1,11 +1,11 @@
 # GST Number Search: Verify GSTIN & Nature of Business
 
-Verify Indian GSTINs against the official GST portal: legal name, trade name, registration status, constitution, registration and cancellation dates, jurisdiction, principal address, and declared HSN/SAC codes with a plain-English line of business. Solves the portal's CAPTCHA with a vision model, no manual step, no third-party GSTIN database. No result, no charge.
+Verify Indian GSTINs against the official GST portal: legal name, trade name, registration status, constitution, registration and cancellation dates, jurisdiction, principal address, and declared HSN/SAC codes with a plain-English line of business. Solves the portal's CAPTCHA with a vision model, no manual step, no third-party GSTIN database. Failed and empty results are never charged.
 
 **Run it on Apify:** [apify.com/themineworks/gst-taxpayer-lookup](https://apify.com/themineworks/gst-taxpayer-lookup)
 **Docs, FAQ and pricing:** [themineworks.com/actors/gst-taxpayer-lookup](https://themineworks.com/actors/gst-taxpayer-lookup/)
 
-**Price:** $0.004 per GSTIN on Apify's free plan, down to $0.003 on higher plans, plus a $0.02 start fee per run. Failed and empty results are never charged.
+**Price:** From $3.00 per 1,000 GSTINs on Apify's higher plans ($4.00 on the free plan), plus a $0.02 start fee per run. Failed and empty results are never charged.
 
 ## What it returns
 
@@ -14,7 +14,7 @@ Verify Indian GSTINs against the official GST portal: legal name, trade name, re
 * Declared HSN/SAC codes with a plain-English business summary
 * Solves the GST portal CAPTCHA automatically via vision model
 * Short-term cache avoids re-billing repeat lookups
-* Zero charge on a failed lookup
+* Failed lookups are never charged
 
 ## Quick start
 
@@ -144,7 +144,7 @@ Yes. Status, registration date, and cancellation date (if applicable) come back 
 
 ### What does it cost?
 
-Pay-per-event at $4 per 1,000 GSTINs verified ($0.004 each). A failed lookup, including one blocked by the portal, is never charged, and repeat lookups within the cache window are not re-billed.
+Pay per result: from $3.00 per 1,000 GSTINs on Apify's higher plans, $4.00 on the free plan, plus a $0.02 start fee per run. A failed lookup, including one blocked by the portal, is never charged, and repeat lookups within the cache window are not re-billed.
 
 ### Can I export the results to CSV or Excel?
 
@@ -157,8 +157,8 @@ Yes. Save your input as a task on Apify and attach a schedule, or call the API f
 ## Related scrapers
 
 * [World Bank Trade Scraper](https://themineworks.com/actors/global-trade-data/): Imports and exports by country and product, from World Bank WITS
-* [SEC EDGAR Filings](https://themineworks.com/actors/sec-edgar-filings/): Structured SEC filings ready for AI and RAG pipelines
 * [EU VAT Validator](https://themineworks.com/actors/eu-vat-vies-validator/): Bulk EU VAT number verification via official VIES
+* [SEC EDGAR Filings](https://themineworks.com/actors/sec-edgar-filings/): Structured SEC filings ready for AI and RAG pipelines
 
 Part of [The Mine Works](https://themineworks.com/): 151 pay-per-result scrapers with no login and no browser setup on your side.
 
